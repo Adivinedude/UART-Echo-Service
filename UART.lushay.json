@@ -1,0 +1,18 @@
+{
+    "name"          : "UART",
+    "board"         : "tangnano9k",
+    "programMode"   : "ram",
+    "baudRate"      : 9600,
+    "includedFiles" : 
+                    ["fifo/fifo.v", 
+                    "shadow_ram/shadow_ram.v", 
+                    "uart/uart_config.v", 
+                    "uart/uart_include.v",
+                    "uart/uart_rx.v",
+                    "uart/uart_tx.v",
+                    "uart/uart.v",
+                    "top.v" ],
+    "testBenches"   : "all",
+    "nextPnrGowinOptions" : [ "--verbose",
+                            "--detailed-timing-report" ]
+}
