@@ -5,9 +5,6 @@ I have been tracking down an off by one error "on-chip", that does not match sim
 If I build and load the verilog with yosys and nextpnr, the error is present and the design broken.
 If I build this with GOWIN's toolchain, the design works as expected.
 
-anyone have any tips about this kind of problem?
-If this is a bug in yosys, whats the proper way to report it?
-
 Dev board tang nano 9k.
 
 UART.fs - Yosys/nextpnr
