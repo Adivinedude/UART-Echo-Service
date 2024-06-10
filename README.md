@@ -1,3 +1,5 @@
+this project is part of a question I posted on evvblog.com
+https://www.eevblog.com/forum/fpga/gowin-vs-yosys/msg5404313/#msg5404313
 Gowin (1) Yosys (0)
 
 I have been trying to figure out why this design works in simulation but not on my device
